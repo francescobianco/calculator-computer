@@ -43,6 +43,26 @@ c.press("=")["text"]          # '2.'
 c.state()["digits"][7]        # {'char': '2', 'segments': 91, 'dp': True}
 ```
 
+## Nota: il calcolo c'è già, manca l'interfaccia
+
+La natura calcola di continuo. Una pellicola di sapone tesa tra dei chiodi
+trova da sola la rete più corta che li unisce. La muffa *Physarum* trova il
+percorso più breve in un labirinto. I ribosomi leggono il DNA come un nastro
+di simboli. Quello che in natura non si trova è un calcolo **programmabile**:
+qualcosa che accetti il nostro problema, lo esegua in modo ripetibile e ci
+restituisca un risultato leggibile. Per averlo bisogna costruire tre cose:
+la **codifica** del problema, il **controllo** dell'evoluzione e la
+**lettura** del risultato.
+
+Questo progetto studia la stessa questione in piccolo. Il chip della
+calcolatrice calcola già, ma non è programmabile. Il Harness è l'interfaccia
+di codifica, controllo e lettura: per esempio un programma scritto come
+numero dentro la memoria M, oppure il segno meno usato come flag di
+confronto. La domanda diventa: **quanto artificio serve per rendere
+programmabile qualcosa che calcola già?**
+
+*Computing with what is already computing.*
+
 ## Licenza
 
 MIT, vedi [LICENSE](LICENSE).

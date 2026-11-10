@@ -29,3 +29,11 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/

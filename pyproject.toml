@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calculator-computer"
+version = "0.1.0"
+description = "A programmable computer built around a cheap calculator chip (Casio HL-820VA emulator first)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Francesco Bianco" }]
+
+[project.scripts]
+calculator-computer = "calculator_computer.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["calculator_computer*"]
